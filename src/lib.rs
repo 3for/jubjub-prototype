@@ -1,7 +1,9 @@
 #![allow(unused_imports)]
 
-#![feature(alloc_system)]
-extern crate alloc_system;
+use std::alloc::System;
+//#![feature(alloc_system)]
+//extern crate alloc_system;
+
 
 extern crate pairing;
 extern crate bellman;

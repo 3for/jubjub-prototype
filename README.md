@@ -16,6 +16,18 @@ Using ARM or can't use Rust's nightly compiler? Pass `--no-default-features`.
 cargo run --release --no-default-features --bin bench_50
 ```
 
+## Performance
+Running in virtual machine:
+
+```
+Creating random generators for the Pedersen hash...
+Done!
+Creating the parameters and saving them to `./params`
+Just wrote the parameters to disk! We don't need to do it next time.
+Creating 50 proofs and averaging the time spent creating them.
+average proving time: 56.937373766s
+```
+
 ## License
 
 Licensed under either of
